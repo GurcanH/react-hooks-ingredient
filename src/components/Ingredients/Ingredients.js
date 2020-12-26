@@ -54,9 +54,16 @@ const Ingredients = () => {
   };
 
   const removeIngredientHandler = id => {
-    setUserIngredients(prevIngredients =>
-      prevIngredients.filter(el => el.id !== id)
-    );
+    fetch(
+      `https://react-hooks-9ec04-default-rtdb.firebaseio.com/ingredients/${id}.json`,
+      {
+        method: 'DELETE'
+      }
+    ).then(response => {
+      setUserIngredients(prevIngredients =>
+        prevIngredients.filter(el => el.id !== id)
+      );
+    });
   };
   return (
     <div className='App'>
