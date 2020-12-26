@@ -6,3 +6,4 @@ Content of the app:
 - Firebase Realtime Database
 - useEffect()
 - useCallback()
+- useEffect()
