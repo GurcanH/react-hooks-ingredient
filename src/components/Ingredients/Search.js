@@ -11,7 +11,8 @@ const Search = React.memo(props => {
     const query =
       enteredFilter.length === 0
         ? ''
-        : `?orderBy="title"&equealTo="${enteredFilter}"`;
+        : `?orderBy="title"&equalTo="${enteredFilter}"`;
+
     fetch(
       'https://react-hooks-9ec04-default-rtdb.firebaseio.com/ingredients.json' +
         query
@@ -26,7 +27,7 @@ const Search = React.memo(props => {
             amount: responseData[key].amount
           });
         }
-        // onLoadIngredients(loadedIngredients);
+        onLoadIngredients(loadedIngredients);
       });
   }, [enteredFilter, onLoadIngredients]);
   return (
