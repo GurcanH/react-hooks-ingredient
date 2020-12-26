@@ -32,6 +32,7 @@ const Ingredients = () => {
   const filteredIngredientsHandler = useCallback(filteredIngredients => {
     setUserIngredients(filteredIngredients);
   }, []);
+
   const addIngredientHandler = ingredient => {
     fetch(
       'https://react-hooks-9ec04-default-rtdb.firebaseio.com/ingredients.json',
