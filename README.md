@@ -7,3 +7,4 @@ Content of the app:
 - useEffect()
 - useCallback()
 - useEffect()
+- Cleaning Up with useEffect()
