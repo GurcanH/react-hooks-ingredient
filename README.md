@@ -3,3 +3,5 @@
 Content of the app:
 
 - useState()
+- Firebase Realtime Database
+- useEffect()
