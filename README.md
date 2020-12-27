@@ -11,3 +11,4 @@ Content of the app:
 - useReducer()
 - useContext()
 - useMemo()
+- Custom Hooks
