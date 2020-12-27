@@ -10,3 +10,4 @@ Content of the app:
 - Cleaning Up with useEffect()
 - useReducer()
 - useContext()
+- useMemo()
