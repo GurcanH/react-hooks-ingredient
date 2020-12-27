@@ -8,3 +8,4 @@ Content of the app:
 - useCallback()
 - useEffect()
 - Cleaning Up with useEffect()
+- useReducer()
