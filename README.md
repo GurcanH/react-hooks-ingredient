@@ -9,3 +9,4 @@ Content of the app:
 - useEffect()
 - Cleaning Up with useEffect()
 - useReducer()
+- useContext()
